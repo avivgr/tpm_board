@@ -18,7 +18,7 @@ Connect the board power pin to the 3.3v on the pi, also connect ground. Connect 
 
 #### Update the device tree on the raspberry pi to detect the SLB 9670
 
-Create a small tmp.dts file on the pi, with the following contents:
+Create a small tpm.dts file on the pi, with the following contents:
 
 ```
 /*
@@ -48,7 +48,7 @@ Create a small tmp.dts file on the pi, with the following contents:
 			#size-cells = <0>;
 			slb9670: slb9670@0{
 				compatible = "infineon,slb9670";
-				reg = <0>; /* CE1 */
+				reg = <0>; /* CE0 */
 				#address-cells = <1>;
 				#size-cells = <0>;
 				spi-max-frequency = <32000000>;
