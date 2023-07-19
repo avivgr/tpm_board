@@ -11,6 +11,17 @@ This is a KiCad project for a simple breakout PCB around the OPTIGA™ SLB 9670 
 
 Because there is a price hike on TPM2.0 boards due to Windows 11 requirements. Also, this is a great learning tool for TPM2.0 technology, instead of using a software emulated TPM.
 
+### BOM
+
+Reference(s) | Value
+---|---
+C1 | 1uF
+C2 | 100nF
+C3 | 100nF
+IC1 | SLB9670VQ20FW785XUMA1
+J1 | Conn_01x08_Female
+R1 | 10k ohm
+
 ### Connecting to the raspberry pi
 
 #### Wiring
